@@ -60,9 +60,27 @@ NFA=number of false alarms, 它要求在给定的背景模型中的可信度度�
 
 5.针对当时的track技术不能在高离群点的场景中找到，提出一种基于采样的三角化技术。
 
-6.Bundler对所有轨迹元素的成对组合进行采样，进行三角化，如果找到一个条件良好的解，则在整个轨迹上进行三角化。该方法对异常值不具有鲁棒性，因为它不可能恢复合track中的独立点。此外，由于穷尽成对三角剖分，该算法的计算代价较大。
+6.Bundler对所有轨迹元素的成对组合进行采样，进行三角化，如果找到一个条件良好的解，则在	整个轨迹上进行三角化。该方法对异常值不具有鲁棒性，因为它不可能恢复合track中的独立点。此外，由于穷尽成对三角剖分，该算法的计算代价较大。
 
 <img src="sfm.assets/6J6VVG42BAOQ6QVI9F6LM9C.png" alt="img" style="zoom: 50%;" />
 
 
 
+
+
+
+
+### 20210614
+
+1.场景结构和相机运动：运动恢复结构；
+
+2.增量式的三维重建是通过从一个最小的重建场景中不断加入新的视图来完成的通过位姿估计和三角化。这个实现通常依赖不断的BA来优化解决方案，并没有收敛到全局优化的保证。
+
+3.
+
+
+
+### 内容叙述
+
+1. Given a collection of images, recovering the exterior orientation parameters (i.e., the location and orientation) of the cameras that capture the images is an important step toward 3D shape recovery.
+2. 
