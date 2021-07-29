@@ -1,4 +1,4 @@
-## 深入理解linux内核（66M）
+## 深入理解linux内核
 
 ### 第一章
 
@@ -6,7 +6,7 @@
 
 1.同步和异步中断称为异常和中断。
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200315003251844.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FuZ2VsRGc=,size_16,color_FFFFFF,t_70)
+<img src="https://img-blog.csdnimg.cn/20200315003251844.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FuZ2VsRGc=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" style="zoom:50%;" />
 
 **核栈映堆数代**
 
@@ -16,7 +16,7 @@
 
 > **管理方式+空间大小+碎片问题+生长方向+分配方式+分配效率**
 
-
+栈内存是编译时可以确定的内存，堆内存是运行时动态申请的内存。
 
 
 
@@ -24,7 +24,7 @@
 
 #### 编译连接攻略
 
-**源代码－－>预处理－－>编译－－>优化－－>汇编－－>链接-->可执行文件**
+**预处理－－>编译－－>优化－－>汇编－－>链接-->可执行文件**
 
 ![图片2](https://images0.cnblogs.com/blog/412433/201405/292249100095523.png)
 
